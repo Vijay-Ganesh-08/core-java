@@ -1,6 +1,7 @@
 /*
  * Switch Statement is used when you are aware of the possible outputs 
- * and need to perform set of action based on specific output.
+ * And need to perform set of action based on specific output.
+ * Break is mandatory to skip other cases instead of executing all other cases once matched.
  */
 public class SwitchStatement {
 
@@ -27,8 +28,11 @@ public class SwitchStatement {
             case 6:
                 System.out.println("Saturday");
                 break;
-            default:
+            case 7:
                 System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid Input");
                 break;
         }
     }

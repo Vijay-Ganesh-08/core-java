@@ -1,6 +1,6 @@
 /*
- * Switch Statement is used when you are aware of the output 
- * and need to perform set of action based on different possible outputs.
+ * Switch Statement is used when you are aware of the possible outputs 
+ * and need to perform set of action based on specific output.
  */
 public class SwitchStatement {
 

@@ -1,3 +1,7 @@
+/*
+ * Array of Object is nothing but containing values of a class properties as objects in a Array
+ * its basicaly a array of class data type
+ */
 public class ArrayOfObjects {
     public static void main(String[] args) {
         Student s1 = new Student();

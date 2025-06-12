@@ -2,8 +2,8 @@
  * Variables are used to store the data temporarily in-order to process the data for required output
  * Strongly typed Language - Int/Double/String/Array etc
  * This defines the storage type for the variables
- * Variables created inside method is called instance variable
- * Variables created inside the class is called local variable
+ * Variables created inside the class is called instance variable
+ * Variables created inside the method is called local variable
  * Static variable is shared across the class, once changed will affect all objects of that class
  */
 

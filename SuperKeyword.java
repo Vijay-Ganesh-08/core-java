@@ -5,7 +5,7 @@
 public class SuperKeyword {
 
     public static void main(String[] args){
-        Dogs d1 = new Dogs();
+       new Dogs();
     }
 }
 

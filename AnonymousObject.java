@@ -1,8 +1,8 @@
 /*
  * Object which is created and assigned to an object of class is Reference Object
  * Object which is creeated only with new keyword to class is Anonymous Object
- * Anonymous Object instatiates the class in Heap memory but has nothing in Stack and you cannot reuse.
- * Reference Object instantiates the class in Heap and a reference object is created in Stack but can be reused.
+ * Anonymous Object instantiates the class in Heap memory but has nothing in Stack and you cannot reuse.
+ * Reference Object instantiates the class in Heap and a reference object is created in Stack which can be reused.
  */
 public class AnonymousObject {
 

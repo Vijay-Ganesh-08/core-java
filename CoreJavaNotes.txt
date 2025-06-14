@@ -481,3 +481,13 @@ Default
  * HashMap can allow atmost 1 Key as Null and Duplicate Null in Values
  * HashTable will not allow Null in both Key or Values
  */
+
+--Sorting Collection--
+ /*
+ * Its not a compulsion to declare the type in both sides at the time of instantiation
+ * List<Integer> nIntegers = new ArrayList<>(Integer); --> Not Mandatory
+ * List<Integer> nIntegers = new ArrayList<>(); --> This should suffice
+ * Collections.sort can be used to sort the Collection Data.
+ * Comparator - Is a concept to implement custom sorting logic, can be invoked with Lambda Expression
+ * Comparable - Providing power to a class to compare itself by implementing the logic in compareTo() method and This Keyword.
+ */

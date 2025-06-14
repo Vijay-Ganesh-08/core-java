@@ -8,6 +8,9 @@
  * Logical Error : Error with the logic implemented.
  * Ex : 2+2 = 4 but implemented as 2+2=5
  * 
+ * All RunTime Exceptions are UnChecked Exceptions (Ex. NullPointer, ArrayIndex, Arithmetic etc)
+ * Checked Exceptions are Possible Exceptions which can impact the execution (IO, SQL Exception etc)
+ * 
  * Exceptions are Run Time Errors occured in the program.
  * Try block is used to execute the critical statement which has potentials to through exception
  * Catch block is used to catch the exception thrown by try block and handles it

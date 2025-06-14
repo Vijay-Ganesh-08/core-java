@@ -491,3 +491,10 @@ Default
  * Comparator - Is a concept to implement custom sorting logic, can be invoked with Lambda Expression
  * Comparable - Providing power to a class to compare itself by implementing the logic in compareTo() method and This Keyword.
  */
+
+--ForEach in Collections--
+ /*
+ * ForEach is a class to iterate through the collections.
+ * Various possible ways to iterate the collection -> For Loop, Enhanced For Loop, ForEach loop.
+ * ForEach is implemented through Consumer Class Lambda Expression
+ */

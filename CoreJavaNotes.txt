@@ -456,3 +456,21 @@ Default
  * Waiting - When the Method sleep() or wait() is executed and needs to used notify() along with it restart the execution which happens internally
  * Dead - When the Method stop() --> Not recommended, as it auto processing
  */
+
+--Collections--
+ /*
+ * Collection API --> Concept
+ * Collection --> Interface
+ * Collections --> Class
+ * Collections is used to store multiple values
+ * Data Structure : Stack - Last In First Out ; Queue - First In First Out
+ * 
+ * If need to access the collection with Index Values use List Reference Object else Collection, set
+ * Unlike Array, Collections will allow to print the list values in [] braces , seperated by default
+ * List will allow duplicate values
+ * Set work with HashSet,TreeSet etc. 
+ * Set allows only unique values.
+ * TreeSet - Unique and Sorted Values
+ */
+
+--Map Collection--

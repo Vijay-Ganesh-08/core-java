@@ -474,3 +474,10 @@ Default
  */
 
 --Map Collection--
+ /*
+ * Map is collection of values with Key,Value pair
+ * Unique Key, any modification to the key updates the value
+ * Map is a combination of Set (Key - Unique Value) and List (Value - Duplicate Values)
+ * HashMap can allow atmost 1 Key as Null and Duplicate Null in Values
+ * HashTable will not allow Null in both Key or Values
+ */

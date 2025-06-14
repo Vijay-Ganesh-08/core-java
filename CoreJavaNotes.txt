@@ -413,3 +413,10 @@ Default
  * Scanner class is used to get the input from the user.
  * Scanner object needs to be closed once done with the program.
  */
+
+ --Try With Resources--
+ /*
+ * Try With Resources is used to Auto Close the resources which is used in the try block
+ * Its not necessary that every Try should have catch block
+ * Finally block can be avoided since the resources are auto closed
+ */

@@ -447,3 +447,12 @@ Default
  * 
  * synchronized keyword is used to a method to restrict mutiple thread accessing at the same time
  */
+
+--Thread States--
+ /*
+ * New - When the Thread is initialized with a Object
+ * Runnable - When the Method start() is executed
+ * Running - When the Method run() is executed
+ * Waiting - When the Method sleep() or wait() is executed and needs to used notify() along with it restart the execution which happens internally
+ * Dead - When the Method stop() --> Not recommended, as it auto processing
+ */

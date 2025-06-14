@@ -22,9 +22,9 @@ public class ThreadSafe {
         //Through Lambda Expression
         Runnable runnable2 = () ->
         {
-                for(int i=0;i<1000;i++){
-                    objCounter.Increment();
-                }
+            for(int i=0;i<1000;i++){
+                objCounter.Increment();
+            }
         };
 
         Thread thread4 = new Thread(runnable1);

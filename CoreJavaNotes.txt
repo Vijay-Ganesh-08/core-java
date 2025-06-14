@@ -420,3 +420,21 @@ Default
  * Its not necessary that every Try should have catch block
  * Finally block can be avoided since the resources are auto closed
  */
+
+--Threads in Java--
+ /*
+ * Threads are used to perform multiple task at the same time
+ * Threads flows cannot be defined but the priority can be set
+ * Class extending Thread is considered as Threads by default
+ * Thread class must contain public void run method
+ * class.start() is used to execute the run methods from the Thread class.
+ * Thread Priority 10-Max 5-Normal 1-Min, Priority is used to suggest the OS Scheduler to set the Execution Priority
+ * Thread Sleep is to let the scheduler to wait for Execution when you want other thread to execute
+ */
+
+--Runnable Threads--
+ /*
+ * Thread is implemented by Runnable interface by default
+ * if a class implements Runnable and when Thread needs to be involved it can be done only by Thread object.
+ * Runnable Threads can be implemented using Anonymous Class and Lambda Expression
+ */

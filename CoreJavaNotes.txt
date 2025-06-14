@@ -438,3 +438,12 @@ Default
  * if a class implements Runnable and when Thread needs to be involved it can be done only by Thread object.
  * Runnable Threads can be implemented using Anonymous Class and Lambda Expression
  */
+
+--Thread Safe--
+ /*
+ * Thread.Join() is used when we want the main Thread needs to wait until the class thread is executed
+ * Removing thread.join() from the below code will print some value since the main thread is ended as soon as Thread is started is called
+ * Keeping thread.join() from the below code will print some value since the main thread will wait until Threads are executed
+ * 
+ * synchronized keyword is used to a method to restrict mutiple thread accessing at the same time
+ */

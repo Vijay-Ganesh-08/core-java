@@ -1,6 +1,6 @@
 /*
  * Lambda Expression is introduced in Java 8
- * Lambda Expression can be implemented only with Functional Interface
+ * Lambda Expression can be implemented only with Functional Interface (which has only 1 method)
  * Lambda expression is simplified version of Functional Interface
  * Curly Braces is used to implement multiple Lines
  * Single line implementation can be done at the object initialisation itself

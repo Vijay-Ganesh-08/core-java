@@ -1,4 +1,4 @@
-/**
+/*
  * System.out is an output stream which connects to consoler/terminal
  * println is used to print the content and a new line.
  * print is used to print the content and will allow you to append text.

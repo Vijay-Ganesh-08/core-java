@@ -1,3 +1,7 @@
+/*
+ * Scanner class is used to get the input from the user.
+ * Scanner object needs to be closed once done with the program.
+ */
 import java.util.Scanner;
 
 public class ScannerClass {

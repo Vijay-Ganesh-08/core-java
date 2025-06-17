@@ -50,14 +50,14 @@
  * Type Promotion - Promoting the type to bigger range when it exceeds
  */
 
- --Assignment Operators--
+--Assignment Operators--
  /*
  * Operators which are used to assign values to an Variable and Manipulation
  * Incremental and Decremental operators are specific to single variables
  * Arithmetic Operators are used to process the data and perform Arithmetic Operations
  */
 
- --Relational Operators--
+--Relational Operators--
  /*
  * Relational Operators are used to compare 2 values
  * < (Lesser Than), > (Greater Than)
@@ -66,7 +66,7 @@
  * Output of RelationOperators is Boolean (true/false)
  */
 
- --Logical Operators--
+--Logical Operators--
  /*
  * Logical Operators are used to compare multiple variables/conditions
  * Output of LogicalOperators is Boolean (true/false)
@@ -76,40 +76,40 @@
  * ! - Returns the reversed result (TRUE to FALSE or FALSE to TRUE)
  */
 
- --If..Else--
+--If..Else--
  /*
  * Decision making statements based on the outcome of conditions
  * Conditional statements helps to execute the piece of code
  * if..else helps us with conditional statements in java
  */
 
- --If..Else..If--
+--If..Else..If--
  /*
  * Decision making statements based on the outcome of conditions
  * Conditional statements helps to execute the piece of code
  * if..else..if..else helps us with multiple conditional statements in java
  */
 
- --Ternary Operator--
+--Ternary Operator--
  /*
  * Ternary Operator is used to simplify if..else statement into a Single line
  * Syntax result = (Condition) ? true : false
  */
 
- --Switch Statement--
+--Switch Statement--
  /*
  * Switch Statement is used when you are aware of the possible outputs 
  * And need to perform set of action based on specific output.
  * Break is mandatory to skip other cases instead of executing all other cases once matched.
  */
 
- --While Loop--
+--While Loop--
  /*
  * Loops are used when you want to iterate set of statements based on condition and to stop at some point
  * While - Checks the condition and executes until the conditions are matched/true
  */
 
- --Do..While Loop--
+--Do..While Loop--
  /*
  * Loops are used when you want to iterate set of statements based on condition and to stop at some point
  * Do-While - Executes at least once and until the conditions are matched

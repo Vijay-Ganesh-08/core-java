@@ -43,8 +43,8 @@ public class MapCollection {
         student1.put("Arjun", 84);
         student1.put("Vivek", 94);
         student1.put("Vijay", 100);
-        student1.put("Ashwin", null);
-        student1.put("Arvind", null);
+        // student1.put("Ashwin", null);
+        // student1.put("Arvind", null);
       
         System.out.println(student1.get("Vijay"));
         System.out.println(student1);

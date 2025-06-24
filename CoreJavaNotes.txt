@@ -124,7 +124,7 @@
 
 --Method overloading--
  /*
- * Method overloading is done to update the version of the methods
+ * Method overloading is done to update the version of the methods in the same class
  * Method overloading is nothing but we have same method names but different behaviors
  * Can be done with different num of parameters/order of parameters
  */
@@ -219,14 +219,14 @@
  * Inheriting properties of a class by other class called Inheritance
  * Class which is getting inherited is called Parent/Super/Base Class
  * Class which is inheriting from other class is called Child/Sub/Derived Class
- * extends is the keyword is implement Inheritance
+ * extends is the keyword is used to implement Inheritance
  * Multilevel Inheritance will work Ex : Class C extends Class B extends Class A
  * Multiple Inheritance will not work Ec : Class C extends both Class B and Class A
  */
 
 --Method Overriding--
  /*
- * MethodOverriding is concert of overriding the implementation of a same method 
+ * MethodOverriding is concept of overriding the implementation of a same method 
  * which is available in both Parent and Child Class
  */
 
@@ -335,12 +335,11 @@ Default
  /*
  * Interface is nothing but an abstract class which is full of abstract methods
  * Interface is not a class like abstract, its a type of class itself
- * By Default every method in Interface is public abstarct - meaning any class inherits should implement all the methods inside interface
- * Abstract is implements using extend keyword, interface is done with implements keyword
+ * By Default every method in Interface is public abstract - meaning any class inherits should implement all the methods inside interface
+ * Abstract is implemented using extend keyword, interface is done with implements keyword
  * A class can inherit from only 1 abstract class but many interface
  * Like Abstract, interface cannot be instantiated
  * Any Variables created in interface is final and static by default
- * Interface can be inherited using the keyword extends
  */
 
 --Enum Class--
@@ -365,7 +364,7 @@ Default
  /*
  * Lambda Expression is introduced in Java 8
  * Lambda Expression can be implemented only with Functional Interface (which has only 1 method)
- * Lambda expression is simplified version of Functional Interface
+ * Lambda expression is simplified implementation of Functional Interface
  * Curly Braces is used to implement multiple Lines
  * Single line implementation can be done at the object initialisation itself
  */
@@ -395,6 +394,7 @@ Default
  /*
  * Throw Keyword is used to throw the exception manually
  */
+
  /*
  * Throws Keyword is used at the method level to indicate the compiler that the method execution could possibly throw a type of exception.
  * The Calling method should catch the type of exceptions which is mentioned after Throws Keyword
@@ -469,8 +469,8 @@ Default
  * Unlike Array, Collections will allow to print the list values in [] braces , seperated by default
  * List will allow duplicate values
  * Set work with HashSet,TreeSet etc. 
- * Set allows only unique values.
- * TreeSet - Unique and Sorted Values
+ * Set - allows only unique values and its unsorted.
+ * TreeSet - allows only Unique and Sorted Values
  */
 
 --Map Collection--

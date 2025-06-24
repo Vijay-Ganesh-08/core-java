@@ -45,18 +45,18 @@
 
 `Relational Operators`
  * Relational Operators are used to compare 2 values
- * < (Lesser Than), > (Greater Than)
- * >>= (Lesser or Equal), <= (Greater or Equal)
- * == (Equals To), != (Not Equals To)
+ * `<` (Lesser Than), `>` (Greater Than)
+ * `>=` (Lesser or Equal), `<=` (Greater or Equal)
+ * `==` (Equals To), `!=` (Not Equals To)
  * Output of RelationOperators is Boolean (true/false)
 
 `Logical Operators`
  * Logical Operators are used to compare multiple variables/conditions
  * Output of LogicalOperators is Boolean (true/false)
  * && (Logical AND), || (Logical OR), ! (Logical NOT)
- * && - Returns True only if All Conditions Results TRUE else FALSE
- * || - Returns Trus if any one of the Conditions Results TRUE else FALSE
- * ! - Returns the reversed result (TRUE to FALSE or FALSE to TRUE)
+ * `&&` - Returns True only if All Conditions Results TRUE else FALSE
+ * `||` - Returns Trus if any one of the Conditions Results TRUE else FALSE
+ * `!`- Returns the reversed result (TRUE to FALSE or FALSE to TRUE)
 
 `If..Else`
  * Decision making statements based on the outcome of conditions

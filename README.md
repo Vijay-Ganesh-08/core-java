@@ -46,7 +46,7 @@
 `Relational Operators`
  * Relational Operators are used to compare 2 values
  * < (Lesser Than), > (Greater Than)
- * >= (Lesser or Equal), <= (Greater or Equal)
+ * >>= (Lesser or Equal), <= (Greater or Equal)
  * == (Equals To), != (Not Equals To)
  * Output of RelationOperators is Boolean (true/false)
 
@@ -379,7 +379,7 @@
     * In the example code file filter is used to filter the even numbers from intList
  * `Map` is used to manipulate the value and replace the values in the list and its derived from Function FunctionalInterface and the statement given in map is a Lambda Expression of a implementation since Function return Integer (`apply` Method)
     * In the example code file map is used to multiple the even numbers from intList by 2
- * `Reduce` - is the action which needs to be taken at the time of execution and its derived from BinaryOperator and BiFuction Functional Interfaces, identity is the starting point, c and e and 2 different values and c+e is the output needed.
+ * `Reduce` is the action which needs to be taken at the time of execution and its derived from BinaryOperator and BiFuction Functional Interfaces, identity is the starting point, c and e and 2 different values and c+e is the output needed.
     * In the example code file reduce sums up the even numbers in the intList which is muliplied by 2 in map statement 
  * Parallel Stream is another function of stream which helps the execution in multiple Threads.
  * Not to use Parallel Stream when you want to sort the elements
